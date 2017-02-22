@@ -9,7 +9,7 @@ Use view_id method your controller or view.
 ```
 class PostsController < ApplicationController
   def index
-    view_id #=> "post-index"
+    view_id #=> "post--index"
   end
 end
 ```
@@ -17,7 +17,7 @@ end
 ```
 class Admin::DeletedPostsController < AdminController
   def show
-    view_id #=> "admin--deleted_posts-show"
+    view_id #=> "admin-deleted_posts--show"
   end
 end
 ```
