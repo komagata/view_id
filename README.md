@@ -26,7 +26,7 @@ end
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'view_id'
+gem "view_id"
 ```
 
 And then execute:
